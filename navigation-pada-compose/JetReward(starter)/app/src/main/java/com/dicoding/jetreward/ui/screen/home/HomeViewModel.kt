@@ -26,6 +26,7 @@ class HomeViewModel(
                 .collect { orderRewards ->
                     _uiState.value = UiState.Success(orderRewards)
                 }
+
         }
     }
 }
